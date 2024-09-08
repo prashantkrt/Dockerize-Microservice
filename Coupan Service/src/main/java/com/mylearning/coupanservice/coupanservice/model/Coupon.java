@@ -15,8 +15,12 @@ import java.math.BigDecimal;
 public class Coupon {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="Id")
     private Long id;
+    @Column(name="Code")
     private String code;
+    @Column(name="Discount")
     private BigDecimal discount;
+    @Column(name="Expiration_Date")
     private String expirationDate;
 }
