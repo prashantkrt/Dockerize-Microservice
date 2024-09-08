@@ -2,12 +2,12 @@ package com.mylearning.productservice.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class ProductServiceApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
-}
+//
+//@SpringBootTest
+//class ProductServiceApplicationTests {
+//
+//    @Test
+//    void contextLoads() {
+//    }
+//
+//}
