@@ -23,4 +23,6 @@ public class Product {
     private String description;
     @Column(name = "price")
     private BigDecimal price;
+    @Transient // we don't want to be saved to db
+    private String couponCode;
 }

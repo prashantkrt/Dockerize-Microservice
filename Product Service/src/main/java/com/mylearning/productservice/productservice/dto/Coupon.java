@@ -9,9 +9,9 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ProductDto {
-    private String name;
-    private String description;
-    private BigDecimal price;
-    private String couponCode;
+public class Coupon {
+    private Long id;
+    private String code;
+    private BigDecimal discount;
+    private String expirationDate;
 }
