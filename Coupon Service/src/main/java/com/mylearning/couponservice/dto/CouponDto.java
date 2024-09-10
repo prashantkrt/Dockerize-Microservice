@@ -1,4 +1,4 @@
-package com.mylearning.couponservice.couponservice.dto;
+package com.mylearning.couponservice.dto;
 
 import lombok.*;
 

@@ -1,8 +1,8 @@
-package com.mylearning.couponservice.couponservice.controller;
+package com.mylearning.couponservice.controller;
 
-import com.mylearning.couponservice.couponservice.dto.CouponDto;
-import com.mylearning.couponservice.couponservice.model.Coupon;
-import com.mylearning.couponservice.couponservice.repository.CouponRepo;
+import com.mylearning.couponservice.dto.CouponDto;
+import com.mylearning.couponservice.model.Coupon;
+import com.mylearning.couponservice.repository.CouponRepo;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
