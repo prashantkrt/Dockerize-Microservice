@@ -2,7 +2,7 @@ version: "3"
 
 services:
   product-app:
-    container_name: coupon-app
+    container_name: product-app
     image: prashantkrt/productservice
     restart: on-failure
     ports:
@@ -29,18 +29,19 @@ services:
     container_name: docker-mysql
     restart: always # restart everytime if it fails
     environment:
-      MYSQL_ROOT_PASSWORD: admin@123
+      MYSQL_PASSWORD: admin@123
+      MYSQL_USERNAME: root
       MYSQL_DATABASE: mydb
       MYSQL_ROOT_HOST : '%' ## tell which ip access tge mysql on the container % anywhere or specific ip you can give
     volumes:
       - ./sql:/docker-entrypoint-init.d # will auto search in /sql folder for .sql file and will execute .sql automatically inside the container folder /docker-entrypoint-init.d
     ports:
-      -  "6666:3306"
+      -  6666:3306
     healthcheck:  ## optional
       test: "/user/bin/mysql --user=root --password=admin@123 --execute \"SHOW DATABASES\""
-      interval: 4s  # in every 4s keep checking and execute
+      interval: 10s  # in every 4s keep checking and execute
       timeout: 20s
-      retries: 5 #frequency
+      retries: 2 #frequency
 
 # /docker-entrypoint-init.d: This is a directory inside the container (commonly used in official database Docker images like PostgreSQL or MySQL)
 # When the container starts, the database service will automatically execute any SQL scripts or shell scripts placed in this directory.
