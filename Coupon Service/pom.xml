@@ -8,8 +8,8 @@
         <version>3.3.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.myLearning.coupanService</groupId>
-    <artifactId>Coupan-Service</artifactId>
+    <groupId>com.myLearning.couponService</groupId>
+    <artifactId>Coupon-Service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Coupon Service</name>
     <description>Coupon Service</description>
