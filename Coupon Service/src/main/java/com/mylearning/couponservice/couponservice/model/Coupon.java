@@ -1,4 +1,4 @@
-package com.mylearning.coupanservice.coupanservice.model;
+package com.mylearning.couponservice.couponservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

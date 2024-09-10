@@ -1,6 +1,6 @@
-package com.mylearning.coupanservice.coupanservice.repository;
+package com.mylearning.couponservice.couponservice.repository;
 
-import com.mylearning.coupanservice.coupanservice.model.Coupon;
+import com.mylearning.couponservice.couponservice.model.Coupon;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

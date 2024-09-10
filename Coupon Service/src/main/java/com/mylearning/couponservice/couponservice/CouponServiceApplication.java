@@ -1,4 +1,4 @@
-package com.mylearning.coupanservice.coupanservice;
+package com.mylearning.couponservice.couponservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
