@@ -11,8 +11,8 @@
     <groupId>com.myLearning.coupanService</groupId>
     <artifactId>Coupan-Service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Coupan Service</name>
-    <description>Coupan Service</description>
+    <name>Coupon Service</name>
+    <description>Coupon Service</description>
     <url/>
     <licenses>
         <license/>

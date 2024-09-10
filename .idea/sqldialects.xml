@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/Coupan Service/sql/tables.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/Coupon Service/sql/tables.sql" dialect="MariaDB" />
   </component>
 </project>
